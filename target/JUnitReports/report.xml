@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="39.517" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Select Pizza and drinks" name="Select items and validate price in cart" time="39.172">
+<system-out><![CDATA[
+Given Customer logged in to pizzahut application............................passed
+When Customer enter location................................................passed
+Then Select the first option of location....................................passed
+And Customer validate that Vegatarian option is disabled....................passed
+When Customer selects pizza and added into cart.............................passed
+Then Customer selects drinks and add it to the cart.........................passed
+And Verify the price of selected pizza and drink............................passed
+]]></system-out>
+</testcase>
+</testsuite>
